@@ -1,6 +1,6 @@
 import pygame
 import sys
-import PyCol
+from PyCol import *
 from pygame.locals import *
 pygame.init()
 screen = pygame.display.set_mode((600, 500))
