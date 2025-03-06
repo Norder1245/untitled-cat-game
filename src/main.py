@@ -6,3 +6,8 @@ pygame.init()
 screen = pygame.display.set_mode((600, 500))
 pygame.display.set_caption("MEOW")
 pygame.draw.circle(screen, RED, (400,300), 50)
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
