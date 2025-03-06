@@ -14,7 +14,7 @@ elif col == "green":
     col = GREEN
 elif col == "blue":
     col = BLUE
-pygame.draw.circle(screen, RED, (400,300), 50)
+pygame.draw.circle(screen, col, (400,300), 50)
 pygame.display.flip()
 running = True
 while running:
